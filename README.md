@@ -111,20 +111,20 @@ Please check out the following references for more details:
         journal={Nature Neuroscience},
         year={2018},
         url={https://www.nature.com/articles/s41593-018-0209-y}}
-
+    
      @article{NathMathisetal2019,
         title={Using DeepLabCut for 3D markerless pose estimation across species and behaviors},
         author = {Nath*, Tanmay and Mathis*, Alexander and Chen, An Chi and Patel, Amir and Bethge, Matthias and Mathis, Mackenzie W},
         journal={Nature Protocols},
         year={2019},
         url={https://doi.org/10.1038/s41596-019-0176-0}}
-
+    
     @article{insafutdinov2016eccv,
         title = {DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model},
         author = {Eldar Insafutdinov and Leonid Pishchulin and Bjoern Andres and Mykhaylo Andriluka and Bernt Schiele},
         booktitle = {ECCV'16},
         url = {http://arxiv.org/abs/1605.03170}}
-
+    
     @article{Mathis2020DeepLT,
         title={Deep learning tools for the measurement of animal behavior in neuroscience},
         author={Mackenzie W. Mathis and Alexander Mathis},
@@ -132,7 +132,7 @@ Please check out the following references for more details:
         year={2020},
         volume={60},
         pages={1-11}}
-
+    
     @article{Mathis2020Primer,
         title={A Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives},
         author={Alexander Mathis and Steffen Schneider and Jessy Lauer and Mackenzie W. Mathis},
@@ -151,7 +151,7 @@ Our open-access pre-prints:
         archivePrefix={arXiv},
         primaryClass={cs.CV}
         }
-
+    
     @article{NathMathis2018,
         author = {Nath*, Tanmay and Mathis*, Alexander and Chen, An Chi and Patel, Amir and Bethge, Matthias and Mathis, Mackenzie W},
         title = {Using DeepLabCut for 3D markerless pose estimation across species and behaviors},
@@ -162,14 +162,14 @@ Our open-access pre-prints:
         eprint = {https://www.biorxiv.org/content/early/2018/11/24/476531.full.pdf},
         journal = {bioRxiv}
         }
-
+    
     @article{mathis2018markerless,
         title={Markerless tracking of user-defined features with deep learning},
         author={Mathis, Alexander and Mamidanna, Pranav and Abe, Taiga and Cury, Kevin M and Murthy, Venkatesh N and Mathis, Mackenzie W and Bethge, Matthias},
         journal={arXiv preprint arXiv:1804.03142},
         year={2018}
         }
-
+    
     @article{MathisWarren2018speed,
         author = {Mathis, Alexander and Warren, Richard A.},
         title = {On the inference speed and video-compression robustness of DeepLabCut},
@@ -208,7 +208,6 @@ VERSION 1.0: The initial, Nature Neuroscience version of [DeepLabCut](https://ww
 - Feb 2019: DeepLabCut joined [twitter](https://twitter.com/deeplabcut) [![Twitter Follow](https://img.shields.io/twitter/follow/DeepLabCut.svg?label=DeepLabCut&style=social)](https://twitter.com/DeepLabCut)
 - Jan 2019: We hosted workshops for DLC in Warsaw, Munich and Cambridge. The materials are available [here](https://github.com/AlexEMG/DeepLabCut-Workshop-Materials)
 - Jan 2019: We joined the Image Source Forum for user help: [![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&amp;url=https%3A%2F%2Fforum.image.sc%2Ftag%2Fdeeplabcut.json&amp;query=%24.topic_list.tags.0.topic_count&amp;colorB=brightgreen&amp;&amp;suffix=%20topics&amp;logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABPklEQVR42m3SyyqFURTA8Y2BER0TDyExZ+aSPIKUlPIITFzKeQWXwhBlQrmFgUzMMFLKZeguBu5y+//17dP3nc5vuPdee6299gohUYYaDGOyyACq4JmQVoFujOMR77hNfOAGM+hBOQqB9TjHD36xhAa04RCuuXeKOvwHVWIKL9jCK2bRiV284QgL8MwEjAneeo9VNOEaBhzALGtoRy02cIcWhE34jj5YxgW+E5Z4iTPkMYpPLCNY3hdOYEfNbKYdmNngZ1jyEzw7h7AIb3fRTQ95OAZ6yQpGYHMMtOTgouktYwxuXsHgWLLl+4x++Kx1FJrjLTagA77bTPvYgw1rRqY56e+w7GNYsqX6JfPwi7aR+Y5SA+BXtKIRfkfJAYgj14tpOF6+I46c4/cAM3UhM3JxyKsxiOIhH0IO6SH/A1Kb1WBeUjbkAAAAAElFTkSuQmCC)](https://forum.image.sc/tag/deeplabcut)
-
 - Nov 2018: We posted a detailed guide for DeepLabCut 2.0 on [BioRxiv](https://www.biorxiv.org/content/early/2018/11/24/476531). It also contains a case study for 3D pose estimation in cheetahs.
 - Nov 2018: Various (post-hoc) analysis scripts contributed by users (and us) will be gathered at [DLCutils](https://github.com/AlexEMG/DLCutils). Feel free to contribute! In particular, there is a script guiding you through
 importing a project into the new data format for DLC 2.0
@@ -219,3 +218,15 @@ importing a project into the new data format for DLC 2.0
 - August 2018: NVIDIA AI Developer News: [AI Enables Markerless Animal Tracking](https://news.developer.nvidia.com/ai-enables-markerless-animal-tracking/)
 - July 2018: Ed Yong covered DeepLabCut and interviewed several users for the [Atlantic](https://www.theatlantic.com/science/archive/2018/07/deeplabcut-tracking-animal-movements/564338).
 - April 2018: first DeepLabCut preprint on [arXiv.org](https://arxiv.org/abs/1804.03142)
+
+
+
+
+
+安装环境：
+
+```
+conda create -n DLC python=3.7
+conda activate DLC
+pip install -r requirements.txt
+```

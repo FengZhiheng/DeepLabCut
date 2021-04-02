@@ -116,3 +116,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.idea
+*.png
+*.csv
+*.h5
+*.avi
+*.pickle
+*.mat
+*.FENGZHIHENGLAB
+testProject
