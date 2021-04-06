@@ -230,3 +230,8 @@ conda create -n DLC python=3.7
 conda activate DLC
 pip install -r requirements.txt
 ```
+
+
+如何启动DeepLab
+import deeplabcut
+deeplabcut.launch_dlc()
