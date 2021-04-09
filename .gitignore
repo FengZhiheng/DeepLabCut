@@ -126,3 +126,7 @@ ENV/
 *.mat
 *.FENGZHIHENGLAB
 testProject
+test
+PupileProject
+examples/DLC-CPU/
+examples/DLC-GPU/
